@@ -61,4 +61,9 @@ Rodar os testes com Allure Report </p>
 
 `npm run test:chrome --env allure=true`
 
+---
+
+Abrir o allure report </p>
+
+`npm open allure-report`
 
