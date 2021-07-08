@@ -61,6 +61,4 @@ Rodar os testes com Allure Report </p>
 
 `npm run test:chrome --env allure=true`
 
-O script limpa os testes anteriores, cria 2 pastas "allure-report" e "allure-results"
-com o novo resultado e abre automaticamente o relatório no navegador.
 
