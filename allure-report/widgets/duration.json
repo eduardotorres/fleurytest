@@ -1,0 +1,11 @@
+[ {
+  "uid" : "5e7ccbf1b213cb56",
+  "name" : "Entrar no site da Fleury, filtrar as unidades com 3 opcoes e validar os nomes.",
+  "time" : {
+    "start" : 1625760052611,
+    "stop" : 1625760059724,
+    "duration" : 7113
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

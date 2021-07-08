@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Network location provider at 'https://www.googleapis.com/' : No response received.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+      "children" : [ {
+        "name" : "Entrar no site da Fleury, filtrar as unidades com 3 opcoes e validar os nomes.",
+        "uid" : "5e7ccbf1b213cb56",
+        "parentUid" : "7f910a9ac4a38699e76533beb5090ac5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625760052611,
+          "stop" : 1625760059724,
+          "duration" : 7113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f910a9ac4a38699e76533beb5090ac5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

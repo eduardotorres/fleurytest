@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Validar os nomes das unidades",
+    "children" : [ {
+      "name" : "Entrar no site da Fleury, filtrar as unidades com 3 opcoes e validar os nomes.",
+      "uid" : "5e7ccbf1b213cb56",
+      "parentUid" : "54cebd874ce98b468acbeb245ddadd94",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625760052611,
+        "stop" : 1625760059724,
+        "duration" : 7113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "54cebd874ce98b468acbeb245ddadd94"
+  } ]
+}

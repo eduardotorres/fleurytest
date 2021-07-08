@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jul 08 13:00:52 GFT 2021","Thu Jul 08 13:00:59 GFT 2021","7113","","Validar os nomes das unidades","","","","Entrar no site da Fleury, filtrar as unidades com 3 opcoes e validar os nomes.",""

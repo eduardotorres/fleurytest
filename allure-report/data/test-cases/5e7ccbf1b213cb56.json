@@ -1,0 +1,587 @@
+{
+  "uid" : "5e7ccbf1b213cb56",
+  "name" : "Entrar no site da Fleury, filtrar as unidades com 3 opcoes e validar os nomes.",
+  "fullName" : "Entrar no site da Fleury, filtrar as unidades com 3 opcoes e validar os nomes.",
+  "historyId" : "68f91233d09d156c406bffea778bee14",
+  "time" : {
+    "start" : 1625760052611,
+    "stop" : 1625760059724,
+    "duration" : 7113
+  },
+  "status" : "failed",
+  "statusMessage" : "The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Network location provider at 'https://www.googleapis.com/' : No response received.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+  "statusTrace" : "Error: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Network location provider at 'https://www.googleapis.com/' : No response received.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Network location provider at 'https://www.googleapis.com/' : No response received.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+    "statusTrace" : "Error: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Network location provider at 'https://www.googleapis.com/' : No response received.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1625760052614,
+        "stop" : 1625760052614,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given acesso a pagina das unidades",
+      "time" : {
+        "start" : 1625760052623,
+        "stop" : 1625760058391,
+        "duration" : 5768
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://www.fleury.com.br/\")",
+        "time" : {
+          "start" : 1625760052624,
+          "stop" : 1625760058189,
+          "duration" : 5565
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/index/page-data.json",
+        "time" : {
+          "start" : 1625760058186,
+          "stop" : 1625760058186,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST https://search-grp-fry-pub-y7cql2malisjawhtcy5dep5e5u.us-west-2.es.amazonaws.com/fleury*/_search",
+        "time" : {
+          "start" : 1625760058186,
+          "stop" : 1625760058186,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST https://search-grp-fry-pub-y7cql2malisjawhtcy5dep5e5u.us-west-2.es.amazonaws.com/fleury*/_search",
+        "time" : {
+          "start" : 1625760058186,
+          "stop" : 1625760058187,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/noticias/fale-conosco-para-saber-como-estao-os-seus-exames-geneticos/page-data.json",
+        "time" : {
+          "start" : 1625760058187,
+          "stop" : 1625760058187,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/noticias/vacine-se-contra-o-hpv-no-fleury/page-data.json",
+        "time" : {
+          "start" : 1625760058187,
+          "stop" : 1625760058187,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/exames/page-data.json",
+        "time" : {
+          "start" : 1625760058187,
+          "stop" : 1625760058187,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/convenios/page-data.json",
+        "time" : {
+          "start" : 1625760058188,
+          "stop" : 1625760058188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/unidades/page-data.json",
+        "time" : {
+          "start" : 1625760058188,
+          "stop" : 1625760058188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/noticias/conheca-o-fleury-med-sua-plataforma-de-relacionamento-medico/page-data.json",
+        "time" : {
+          "start" : 1625760058188,
+          "stop" : 1625760058188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://cdn-prod.securiti.ai/consent/cookie_banner/3da16b69-4c47-458f-ab05-15574055065e/8b2b1caa-f79b-4464-a1e7-c4dc22e7969a.json",
+        "time" : {
+          "start" : 1625760058189,
+          "stop" : 1625760058189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://app.securiti.ai/core/v1/utils/geo/location",
+        "time" : {
+          "start" : 1625760058189,
+          "stop" : 1625760058189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://www.fleury.com.br/page-data/noticias/page-data.json",
+        "time" : {
+          "start" : 1625760058189,
+          "stop" : 1625760058189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get (\".boxcomponentstyle__HboxStyled-sc-43ermp-0 > :nth-child(16)\")",
+        "time" : {
+          "start" : 1625760058189,
+          "stop" : 1625760058206,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "contains (\"Unidades\")",
+        "time" : {
+          "start" : 1625760058206,
+          "stop" : 1625760058222,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1625760058222,
+          "stop" : 1625760058388,
+          "duration" : 166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST https://www.fleury.com.br/cdn-cgi/rum?req_id=66ba87309c5b2755",
+        "time" : {
+          "start" : 1625760058388,
+          "stop" : 1625760058388,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 17,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When filtro as opcoes",
+      "time" : {
+        "start" : 1625760058391,
+        "stop" : 1625760059723,
+        "duration" : 1332
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get (\".checkbox-selectcomponentstyle__CheckboxSelectPlaceholderStyled-sc-7ktrvg-2\")",
+        "time" : {
+          "start" : 1625760058393,
+          "stop" : 1625760058695,
+          "duration" : 302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "https://www.fleury.com.br/unidades new url",
+        "time" : {
+          "start" : 1625760058694,
+          "stop" : 1625760058694,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST https://search-grp-fry-pub-y7cql2malisjawhtcy5dep5e5u.us-west-2.es.amazonaws.com/fleury*/_search",
+        "time" : {
+          "start" : 1625760058695,
+          "stop" : 1625760058695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST https://search-grp-fry-pub-y7cql2malisjawhtcy5dep5e5u.us-west-2.es.amazonaws.com/fleury*/_search",
+        "time" : {
+          "start" : 1625760058695,
+          "stop" : 1625760058695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1625760058695,
+          "stop" : 1625760058899,
+          "duration" : 204
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get (\".checkbox-selectcomponentstyle__CheckboxSelectScrollStyled-sc-7ktrvg-4\")",
+        "time" : {
+          "start" : 1625760058899,
+          "stop" : 1625760058909,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "contains (\"Bicicletário e vaga verde\")",
+        "time" : {
+          "start" : 1625760058909,
+          "stop" : 1625760058918,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1625760058918,
+          "stop" : 1625760059127,
+          "duration" : 209
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get (\".checkbox-selectcomponentstyle__CheckboxSelectScrollStyled-sc-7ktrvg-4\")",
+        "time" : {
+          "start" : 1625760059127,
+          "stop" : 1625760059134,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "contains (\"Atendimento aos domingos\")",
+        "time" : {
+          "start" : 1625760059134,
+          "stop" : 1625760059143,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1625760059143,
+          "stop" : 1625760059723,
+          "duration" : 580
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "undefined: Network location provider at 'https://www.googleapis.com/' : No response received. uncaught exception",
+        "time" : {
+          "start" : 1625760059722,
+          "stop" : 1625760059722,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1625760059756,
+        "stop" : 1625760059759,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b799e3b25bf42fcb",
+      "name" : "ValidarNomeUnidade.feature:2021-07-08T16:00:59.204Z",
+      "source" : "b799e3b25bf42fcb.png",
+      "type" : "image/png",
+      "size" : 310872
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 33,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Validar os nomes das unidades"
+  }, {
+    "name" : "feature",
+    "value" : "Validar os nomes das unidades"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5e7ccbf1b213cb56.json",
+  "parameterValues" : [ ]
+}

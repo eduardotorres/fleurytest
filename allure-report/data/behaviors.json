@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Validar os nomes das unidades",
+    "children" : [ {
+      "name" : "Entrar no site da Fleury, filtrar as unidades com 3 opcoes e validar os nomes.",
+      "uid" : "5e7ccbf1b213cb56",
+      "parentUid" : "e6b975b7ac80cc2fa4c98c414cb88568",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625760052611,
+        "stop" : 1625760059724,
+        "duration" : 7113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6b975b7ac80cc2fa4c98c414cb88568"
+  } ]
+}
